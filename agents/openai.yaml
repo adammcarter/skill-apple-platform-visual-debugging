@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple Platform Visual Debugging"
+  short_description: "Elite Apple UI visual debugging specialist"
+  default_prompt: "Use $apple-platform-visual-debugging to diagnose Apple-platform UI layout, rendering, clipping, overlap, hit-testing, animation, and transition bugs by reading the code first, isolating likely root cause, then adding additive low-noise logs, targeted visual probes, and minimal cropped screenshots only when needed."

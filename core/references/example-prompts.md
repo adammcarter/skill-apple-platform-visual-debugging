@@ -1,0 +1,23 @@
+# Example Prompts
+
+- Help me debug a visual UI bug in this SwiftUI screen without changing app behavior.
+- Read this UI code and tell me the cheapest next debugging step.
+- Add additive, easy-to-remove debug probes so we can isolate what owns this visual bug.
+- I do not know whether this is a layout, rendering, hit-testing, or animation issue. Help me narrow it down.
+- Tell me what temporary logging or overlays to add to diagnose this UI issue and nothing more.
+- Help me debug why this screen looks wrong and keep the instrumentation minimal.
+- Tell me whether this bug needs logs, visual probes, screenshots, the view debugger, or Instruments next.
+- Guide me through gathering the minimum evidence needed to diagnose this UI bug.
+- Diagnose this UI bug, then tell me which implementation skill should take the fix next.
+- Isolate the root cause of this visual bug and prepare a handoff another skill can use to implement the fix.
+- Read this SwiftUI view tree and tell me if there is an obvious layout or clipping bug before adding any probes.
+- Add temporary debug colors and labels so the bounds of these nested views are obvious in screenshots.
+- Add targeted low-noise logging so we can see exactly when this visible phase flips and nothing more.
+- Figure out whether this SwiftUI `if` branch or `.id(...)` is recreating the subtree and breaking the animation.
+- Diagnose why this invisible overlay is still stealing taps even though it looks hidden.
+- Check whether this `GeometryReader` or overlay is participating in layout and causing the bug.
+- Help me decide whether this `LazyVStack` is helping or just making the visual bug harder to diagnose.
+- Debug the sizing of this `UIViewRepresentable` and tell me whether the host or wrapped view owns the problem.
+- Help me debug a UIKit host-view layout bug and tell me which view actually owns the clipping.
+- Review this debugging patch and tell me if the probes are too noisy, too broad, or aimed at the wrong owner.
+- Tell me exactly which screenshots to capture for this transition seam, and keep the crop as tight as possible.
